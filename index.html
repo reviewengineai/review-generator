@@ -276,17 +276,6 @@
     animation: fadeUp 0.7s ease 0.6s forwards;
   }
  
-  .footer-tag {
-    margin-top: 28px;
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: 13px;
-    color: var(--text-soft);
-    opacity: 0;
-    animation: fadeUp 0.7s ease 0.75s forwards;
-    letter-spacing: 0.04em;
-  }
- 
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(14px); }
     to   { opacity: 1; transform: translateY(0); }
@@ -333,7 +322,6 @@
   </div>
  
   <p class="hint" id="hint">Tap to copy your review, then paste it on Google.</p>
-  <p class="footer-tag">"Your skin, our passion."</p>
  
 </div>
  
@@ -365,9 +353,24 @@ var VISIT_OPENERS = [
   "My skin had never looked so dull before I found Bella Rosa",
   "Finally took the plunge and booked my first session at Bella Rosa",
   "Have been recommending Bella Rosa to everyone in my friend circle",
-  "Visited Bella Rosa for a consultation and ended up booking a full treatment plan"
+  "Visited Bella Rosa for a consultation and ended up booking a full treatment plan",
+  "Was introduced to Bella Rosa by my dermatologist and it has been wonderful",
+  "Came across Bella Rosa while searching for the best skincare clinic in Varanasi",
+  "My cousin dragged me to Bella Rosa for a facial and I have been a regular ever since",
+  "Had been putting off skincare for too long before I finally visited Bella Rosa",
+  "A family friend who visits Bella Rosa convinced me to try and I am grateful she did",
+  "Came to Bella Rosa specifically for their carbon laser peel and loved every bit of it",
+  "Moved to Varanasi recently and Bella Rosa was the first clinic I tried for skin care",
+  "Was referred by three separate people to Bella Rosa, and all three were absolutely right",
+  "Searched everywhere for a reliable skin clinic in Varanasi and Bella Rosa stood out immediately",
+  "Had almost given up on finding good skincare in Varanasi before discovering Bella Rosa",
+  "Booked a slot at Bella Rosa after a close friend showed me her skin transformation results",
+  "Walked in without an appointment and they still accommodated me so warmly at Bella Rosa",
+  "My wedding was approaching and Bella Rosa transformed my skin in just a few months",
+  "Started going to Bella Rosa as a one-time thing and became a loyal regular within weeks",
+  "Have been following Bella Rosa online for months before finally booking and it was worth the wait"
 ];
- 
+
 var TREATMENT_OBSERVATIONS = [
   "The range of treatments available here is truly impressive, from HydraFacials to HIFU and MNRF",
   "They have the latest equipment including HIFU machines, RF devices, OxyGeneo, and DermaFrac",
@@ -388,9 +391,25 @@ var TREATMENT_OBSERVATIONS = [
   "The Ayurvedic massage session here was deeply relaxing and therapeutic",
   "Microneedling sessions here are done with great precision and proper aftercare guidance is given",
   "The RF machine facial is excellent for tightening and the results are very noticeable",
-  "All equipment is properly sterilized and the hygiene standards here are clinic-grade"
+  "All equipment is properly sterilized and the hygiene standards here are clinic-grade",
+  "The carbon peel laser treatment here is one of the most effective I have experienced anywhere",
+  "Bella Rosa offers combination treatments that are perfectly tailored to each skin type",
+  "The Medi-facial options here are extensive and every single one delivers visible results",
+  "The slimming and body contouring sessions use proper clinical grade devices, not salon tools",
+  "Anti-pigmentation treatments here go beyond surface level and address the root cause properly",
+  "The number of specialized facials available here rivals clinics in much larger cities",
+  "The chemical peel treatments here are calibrated precisely for each individual skin concern",
+  "Scar and stretch mark treatments at Bella Rosa use the right combination of technology and care",
+  "The Under-eye treatment here is one of the best I have tried, results were visible quite quickly",
+  "Skin brightening treatments at Bella Rosa deliver a radiance that lasts for weeks not just days",
+  "The GFC hair treatment protocol at Bella Rosa is thorough and follows the latest clinical methods",
+  "Lip enhancement and lip care treatments here are done with remarkable subtlety and precision",
+  "The combination of OxyGeneo and LED light therapy here is extraordinary for dull tired skin",
+  "Anti-ageing protocols at Bella Rosa are thoughtfully designed and genuinely deliver younger-looking skin",
+  "The hydration boosting treatments here work on a cellular level and the results are long lasting",
+  "Bella Rosa offers full body skin treatments not just facial care which is rare to find in Varanasi"
 ];
- 
+
 var RESULTS_OBSERVATIONS = [
   "Visible results started showing within just two to three sessions which was beyond my expectation",
   "My acne has reduced drastically after following the treatment plan Albina ma'am designed for me",
@@ -406,9 +425,30 @@ var RESULTS_OBSERVATIONS = [
   "The dark spots that bothered me for years have lightened so much after just a few sessions",
   "Collagen production has visibly improved and my skin feels more elastic and youthful",
   "Results are gradual but consistent, every session brings a noticeable improvement",
-  "My friends keep asking what I did differently because my skin is glowing so much"
+  "My friends keep asking what I did differently because my skin is glowing so much",
+  "The results have been genuinely transformative, not just surface-level improvements",
+  "My skin texture has improved so dramatically that I rarely need foundation anymore",
+  "Even my husband noticed the improvement in my skin after just three sessions here",
+  "The under-eye darkness I had for years has reduced significantly after treatment",
+  "Breakouts have almost completely stopped and my skin feels balanced and healthy now",
+  "My confidence has genuinely improved since starting treatments at Bella Rosa",
+  "The results here are not temporary, they last and keep improving with each session",
+  "Skin feels so hydrated and plump after every treatment, something I had not felt in years",
+  "Even stubborn hormonal acne responded well to the customized plan here",
+  "Fine lines around my eyes have visibly softened after the anti-ageing treatments",
+  "My scalp is much healthier and the hair quality has improved dramatically",
+  "The open pores that bothered me so much have tightened significantly after treatment",
+  "After years of trying random products, Bella Rosa is the first place that actually fixed my skin",
+  "Skin glow after each session lasts for weeks, which is a true sign of quality treatment",
+  "My oily T-zone is so much more controlled now after the treatments and guidance here",
+  "The redness and sensitivity my skin had has been completely addressed at Bella Rosa",
+  "I look at photos from six months ago and the difference is truly staggering",
+  "My neck and jawline area has lifted and tightened noticeably after the HIFU sessions",
+  "Freckles and sun damage on my face have faded so much that people think I look younger",
+  "Blackheads and whiteheads that were persistent are almost completely gone after treatment",
+  "The improvement in my overall skin health has been both visible and tangible"
 ];
- 
+
 var STAFF_OBSERVATIONS = [
   "Albina ma'am has an exceptional understanding of skin and designs treatment plans that actually work",
   "The staff is warm, professional, and genuinely caring throughout every session",
@@ -424,9 +464,24 @@ var STAFF_OBSERVATIONS = [
   "The entire team is trained, gentle, and very responsive to how your skin is feeling",
   "They follow up after sessions to check on how your skin is responding",
   "Got very honest advice here, they told me clearly what would work and what would not",
-  "The level of personalized attention here is something I have not experienced anywhere else"
+  "The level of personalized attention here is something I have not experienced anywhere else",
+  "Albina ma'am is genuinely passionate about her work and it reflects in every session",
+  "The staff remembers your skin history and picks up exactly where they left off every visit",
+  "Never once felt judged about my skin concerns, only understood and genuinely helped",
+  "The team is patient with questions and always explains the science behind every treatment",
+  "Albina ma'am's expertise goes beyond just treatments, she coaches you on overall skin wellness",
+  "The receptionist and support staff are just as warm and professional as the core team",
+  "Every single person at Bella Rosa treats you like a valued guest, not just a client",
+  "Albina ma'am has a gift for making even anxious clients feel safe and looked after",
+  "The team never compromises on quality and always ensures you are comfortable throughout",
+  "Consultation here is genuinely diagnostic, they study your skin before saying anything",
+  "The trust built by the team at Bella Rosa is what keeps clients coming back consistently",
+  "Albina ma'am's honest and direct approach to skincare advice is something I deeply respect",
+  "The staff takes time to explain post-treatment care in detail, which makes a huge difference",
+  "Every recommendation made here is backed by knowledge and experience, not sales targets",
+  "Albina ma'am genuinely cares about the long-term health of your skin, not just quick results"
 ];
- 
+
 var HYGIENE_AMBIENCE = [
   "The clinic is spotlessly clean and maintained to very high standards of hygiene",
   "The environment is calming, aesthetic, and makes you feel like you are in trusted hands",
@@ -437,9 +492,21 @@ var HYGIENE_AMBIENCE = [
   "The clinic feels like a high-end spa combined with a professional medical facility",
   "Very neat and tidy space with a serene environment that instantly puts you at ease",
   "The treatment rooms are private, comfortable, and kept impeccably clean",
-  "This is one of the few clinics in Varanasi that truly maintains five-star hygiene standards"
+  "This is one of the few clinics in Varanasi that truly maintains five-star hygiene standards",
+  "The cleanliness and organization of Bella Rosa is genuinely a cut above every other clinic I have visited",
+  "Walking into Bella Rosa immediately puts you in a calm and reassured state of mind",
+  "The aesthetic of the clinic is elegant and premium without being intimidating",
+  "Disposables are used properly and sterilization protocols are followed meticulously",
+  "The privacy and comfort offered in the treatment area is thoughtfully designed",
+  "Every corner of the clinic reflects an obsession with cleanliness and order",
+  "The lighting, fragrance, and overall vibe of Bella Rosa is therapeutic in itself",
+  "The waiting area is comfortable and the time between arrival and treatment is minimal",
+  "Bella Rosa has a very premium feel yet remains approachable and warm in its environment",
+  "The clinic layout is thoughtfully designed for both comfort and professional efficiency",
+  "Air quality and ventilation inside the clinic is excellent which adds to the overall comfort",
+  "The overall sensory experience at Bella Rosa from decor to scent to sound is beautifully curated"
 ];
- 
+
 var PERSONALIZED_CARE_LINES = [
   "The treatment plan was completely tailored to my skin type and concerns, nothing was generic",
   "They take your full skin history into account before recommending any procedure",
@@ -450,9 +517,19 @@ var PERSONALIZED_CARE_LINES = [
   "Every session starts with a careful skin assessment which I really appreciate",
   "The clinic tracks your progress over sessions and adapts the plan as needed",
   "They do not rush you into expensive treatments, they start with what you actually need",
-  "My combination skin was treated with a very thoughtful customized approach"
+  "My combination skin was treated with a very thoughtful customized approach",
+  "The home care regimen they designed for me between sessions made a huge difference",
+  "They consider your lifestyle, diet, and stress levels when creating your skin plan",
+  "Even the smallest detail like seasonal skin changes is factored into the treatment here",
+  "The level of customization at Bella Rosa is what separates it from every other clinic",
+  "Albina ma'am spends real time understanding your skin before recommending anything at all",
+  "The treatment plan is revisited and refined at every visit based on how your skin responds",
+  "They never apply a one-size-fits-all approach here, every client is treated as unique",
+  "My specific skin sensitivities were taken seriously and every product choice was made accordingly",
+  "The attention to individual skin needs here is genuinely exceptional and sets Bella Rosa apart",
+  "They guided me on exactly what to eat, avoid, and apply at home for the best results"
 ];
- 
+
 var TRUST_AUTHENTICITY_LINES = [
   "Only premium, genuine, dermatologist-approved products are used here, no shortcuts",
   "The trust I have in this clinic has been earned session by session through consistent results",
@@ -463,9 +540,19 @@ var TRUST_AUTHENTICITY_LINES = [
   "No hidden charges, no pressure, just honest guidance and quality treatments",
   "The products used here are the real thing, I verified several of them myself",
   "Safety is visibly prioritized here above everything else and that gives great peace of mind",
-  "I always leave Bella Rosa feeling that I was treated with complete honesty and care"
+  "I always leave Bella Rosa feeling that I was treated with complete honesty and care",
+  "The transparency and ethical practice at Bella Rosa is rare and deeply appreciated",
+  "No overselling, no false promises, only what genuinely works for your specific skin",
+  "The fact that results match the promises made during consultation is what builds real trust",
+  "Bella Rosa does not chase trends, they follow evidence-based practice and it shows",
+  "Every ingredient and product used is explained, there are no mysteries in treatment here",
+  "Pricing is honest and fair with no unexpected charges after the session is done",
+  "The integrity of this clinic is reflected in every interaction and every result",
+  "They will tell you honestly if a treatment is not right for you rather than take your money",
+  "The authenticity of care at Bella Rosa is something that cannot be faked and clients can feel it",
+  "Complete confidence in the quality and safety of every procedure I have had here"
 ];
- 
+
 var HAIR_CARE_LINES = [
   "The PRP therapy for hair growth here is done with proper technique and visible results follow",
   "GFC treatment at Bella Rosa has significantly reduced my hair fall in just a few months",
@@ -474,9 +561,17 @@ var HAIR_CARE_LINES = [
   "My hairline has improved noticeably after the PRP sessions here, very impressed",
   "Hair fall was my biggest concern and Bella Rosa addressed it with a complete holistic plan",
   "The combination of PRP and the recommended hair care routine has restored my confidence",
-  "Scalp health improved dramatically after following their treatment and home care advice"
+  "Scalp health improved dramatically after following their treatment and home care advice",
+  "The hair growth results from GFC treatment at Bella Rosa surprised even me after just months",
+  "Hair texture has improved remarkably and the density is visibly better after treatment",
+  "The scalp treatment here goes beyond surface level and addresses the underlying health of follicles",
+  "Anti-hairfall protocol at Bella Rosa is comprehensive and the results speak for themselves",
+  "My hair was thinning badly before I visited Bella Rosa and now the regrowth is genuinely visible",
+  "The hair analysis done before starting treatment was thorough and helped design the right plan",
+  "Never expected my hair situation to improve this much but Bella Rosa proved me completely wrong",
+  "The post-treatment hair care routine they designed for me has made a lasting difference"
 ];
- 
+
 var CLOSING_RECS = [
   "Highly recommend Bella Rosa to anyone in Varanasi looking for reliable, result-oriented skincare.",
   "If you are struggling with any skin or hair concern, Bella Rosa should be your first stop.",
@@ -497,9 +592,24 @@ var CLOSING_RECS = [
   "A hidden gem in Varanasi that deserves to be known by everyone who cares about their skin.",
   "Bella Rosa has genuinely changed the way I feel about my skin. Grateful and highly recommending.",
   "If you want a clinic that combines expertise, warmth, and real results, Bella Rosa is the one.",
-  "This is the kind of clinic that restores your faith in professional skincare. Highly recommend."
+  "This is the kind of clinic that restores your faith in professional skincare. Highly recommend.",
+  "Give Bella Rosa one chance and your skin will thank you for years to come.",
+  "Once you experience Bella Rosa you will not settle for anything less anywhere in Varanasi.",
+  "Completely worth the visit, the wait, and every rupee. Bella Rosa delivers every time.",
+  "If Varanasi has a gold standard in skincare, it is undoubtedly Bella Rosa. Highly recommended.",
+  "Book your first appointment at Bella Rosa and watch your skin story completely change.",
+  "Bella Rosa is not just a clinic, it is a complete skin wellness experience. Truly recommended.",
+  "Do not waste time searching elsewhere. Bella Rosa is the answer for genuine skin transformation in Varanasi.",
+  "The quality, honesty, and results here are unmatched. Bella Rosa deserves every five-star review it gets.",
+  "Came once, became a regular, and have referred over a dozen people. That says it all about Bella Rosa.",
+  "Skin confidence I never thought I would have, and Bella Rosa gave it back to me. Highly recommend.",
+  "If you are in Varanasi and serious about your skin, stopping at Bella Rosa is non-negotiable.",
+  "Everything about Bella Rosa earns five stars, the team, the technology, and the results.",
+  "Bella Rosa has made me believe in professional skincare again. Highly and unreservedly recommended.",
+  "An investment in Bella Rosa is an investment in yourself. Best decision I made for my skin.",
+  "Tell your friends, tell your family. Bella Rosa is the best skincare clinic Varanasi has to offer."
 ];
- 
+
 var HI_OPENERS = [
   "Bella Rosa clinic mein pehli baar gayi aur experience bahut accha raha",
   "Kuch mahino se Bella Rosa se treatment le rahi hoon, results bahut satisfying hain",
@@ -515,9 +625,19 @@ var HI_OPENERS = [
   "HIFU treatment ke liye kafi research ki thi, Bella Rosa sab se better option laga",
   "Acne se bahut pareshan thi jab tak Bella Rosa nahi dhundhi",
   "Varanasi mein bahut jagah gayi skin ke liye, Bella Rosa sabse behtar lagi",
-  "Yahan appointment lena aasan hai aur timing bilkul flexible hai"
+  "Yahan appointment lena aasan hai aur timing bilkul flexible hai",
+  "Shaadi ke pehle skin theek karni thi, Bella Rosa ne bilkul sahi kaam kiya",
+  "Behen ne recommend kiya Bella Rosa, aur pehle session mein hi fark feel hua",
+  "Instagram par results dekhe aur khud jaake confirm kar li Bella Rosa ki quality",
+  "Varanasi shift hui thi naya shahr mein aur pehla accha clinic Bella Rosa hi mila",
+  "Saalon ki skin problems ka solution ek hi jagah mil gaya, Bella Rosa mein",
+  "Pigmentation, dullness, aur acne teeno ki problem thi, Bella Rosa ne sab handle kiya",
+  "Pehle ghabra rahi thi clinic jaane se lekin Bella Rosa ne bilkul comfortable feel karaya",
+  "Colleague ki skin mein zyada glow dekha, poochha toh Bella Rosa ka naam liya usne",
+  "Ek baar try karne ki soch ke gayi thi, ab regular ban gayi hoon",
+  "Kaafi time se clinic dhundh rahi thi jo genuinely kaam kare, Bella Rosa ne answer diya"
 ];
- 
+
 var HI_TREATMENT = [
   "Yahan itni saari treatments milti hain ek hi jagah, HydraFacial se lekar HIFU tak",
   "Equipment bilkul latest hai, modern technology se sab kuch kiya jaata hai",
@@ -528,9 +648,19 @@ var HI_TREATMENT = [
   "Korean Glass Mediafacial try ki thi, weeks tak glow raha skin mein",
   "Pico Carbon Laser facial ka result dekh ke main khud hairan reh gayi",
   "DermaFrac treatment se uneven skin tone mein bahut improvement aayi",
-  "Sagging skin ke liye face lifting treatment yahan kamaal ka kaam karti hai"
+  "Sagging skin ke liye face lifting treatment yahan kamaal ka kaam karti hai",
+  "Chemical peel treatment yahan ekdum sahi concentration mein kiya jaata hai",
+  "Under-eye treatment yahan bahut effective hai, results bahut jaldi aate hain",
+  "Anti-ageing treatments ka jo range yahan hai woh Varanasi mein kahi aur nahi milta",
+  "Body slimming sessions bhi try ki hain aur results genuinely impressive hain",
+  "Skin brightening treatment ne meri complexion mein clear difference laaya hai",
+  "GFC hair treatment ka protocol yahan bilkul clinical aur scientific hai",
+  "Lip care aur enhancement yahan bahut subtly aur skillfully kiya jaata hai",
+  "Tattoo removal sessions yahan safe technology se kiye jaate hain aur dhyan rakha jaata hai",
+  "Combination treatments yahan skin type ke hisab se bilkul customize hote hain",
+  "Ayurvedic massage session bhi try ki, bahut deeply relaxing experience tha"
 ];
- 
+
 var HI_RESULTS = [
   "Do teen sessions ke baad hi results dikhne lage jo bahut unexpected tha",
   "Acne marks jo saalon se the, ab bahut kam ho gaye hain",
@@ -541,9 +671,19 @@ var HI_RESULTS = [
   "Skin tone ekdum even ho gayi hai aur compliments zyada aane lage hain",
   "Hair fall jo roz hota tha woh almost 70 percent kam ho gaya GFC ke baad",
   "Dosto ne poocha kya change kiya tune, skin itni glow kar rahi hai",
-  "Aaj tak itna clear skin kabhi nahi tha, Bella Rosa ne possible kar diya"
+  "Aaj tak itna clear skin kabhi nahi tha, Bella Rosa ne possible kar diya",
+  "Skin ka texture itna smooth ho gaya hai ki foundation bhi ab zaroorat se kam lagti hai",
+  "Fine lines aur wrinkles visibly soft ho gayi hain, bahut khush hoon",
+  "Open pores jo bahut bother karte the, ab kaafi tight ho gaye hain",
+  "Skin itni hydrated aur plump feel hoti hai ab, pehle kabhi aisa nahi tha",
+  "Jawline aur neck area tighten hua hai, log bhi notice karne lage hain",
+  "Breakouts almost band ho gaye hain aur skin balance feel hoti hai ab",
+  "Oily skin ki problem itni control mein aa gayi hai, bahut relief hai",
+  "Results sirf ek do session mein nahi, consistent hote hain aur improve hote rehte hain",
+  "Confidence level genuinely improve hua hai skin clear hone ke baad",
+  "Pehle photo mein jhijhak hoti thi, ab nahi hoti, Bella Rosa ka yeh result hai"
 ];
- 
+
 var HI_STAFF = [
   "Albina ma'am ko skin ki bahut gehra samajh hai aur woh bilkul sahi guidance deti hain",
   "Staff bahut warm aur professional hai, kabhi bhi uncomfortable feel nahi hua",
@@ -552,17 +692,29 @@ var HI_STAFF = [
   "Yahan koi pressure nahi dete, sirf wahi suggest karte hain jo genuinely zaroori ho",
   "Staff ne har treatment se pehle poori information di jo bahut helpful tha",
   "Itni caring team pehle kisi clinic mein nahi mili mujhe",
-  "Har session ke baad follow up karte hain jo bahut responsible approach hai"
+  "Har session ke baad follow up karte hain jo bahut responsible approach hai",
+  "Albina ma'am ka experience aur knowledge clearly feel hota hai consultation mein",
+  "Team ka dhairya aur warmth genuinely alag aur special lagti hai",
+  "Koi bhi concern ho, yahan sunte hain aur sach mein helpful hote hain",
+  "Honest advice dete hain, jo kaam nahi karega woh bhi bata dete hain clearly",
+  "Staff ne mujhe ghar par follow karne wala routine bhi bahut carefully samjhaya",
+  "Albina ma'am ki dedication unke kaam mein clearly dikhti hai, bahut passionate hain",
+  "Pehle visit mein hi itna comfortable laga jaise saalon se jaa rahi hoon"
 ];
- 
+
 var HI_HYGIENE = [
   "Clinic bahut neat aur clean hai, hygiene mein koi compromise nahi",
   "Atmosphere ek luxury spa jaisa lagta hai, relaxing aur soothing environment hai",
   "Sabhi equipment sterilized hote hain aur products sealed original hote hain",
   "Bahut comfortable treatment rooms hain aur privacy bhi poori milti hai",
-  "Yahan enter karte hi ek positive energy feel hoti hai, bilkul premium experience hai"
+  "Yahan enter karte hi ek positive energy feel hoti hai, bilkul premium experience hai",
+  "Clinic ki saaf safaai aur maintenance genuinely impressive hai",
+  "Varanasi mein itna well-maintained aur aesthetic clinic bahut rare hai",
+  "Lighting, fragrance, aur overall decor bahut soothing aur welcoming lagta hai",
+  "Treatment ke dauraan complete privacy milti hai jo bahut important hoti hai",
+  "Clinic ki cleanliness aur organization dekh ke hi trust ho jaata hai"
 ];
- 
+
 var HI_CLOSE = [
   "Bella Rosa ko zaroor recommend karungi Varanasi mein skin treatment dhundh rahe sabhi ko.",
   "Best skin clinic Varanasi mein, koi shak nahi. Results khud bol dete hain.",
@@ -573,9 +725,14 @@ var HI_CLOSE = [
   "Ek baar aao aur samjho kyun Bella Rosa Varanasi ki best clinic hai.",
   "Meri taraf se poori recommendation Bella Rosa ko, truly wonderful experience.",
   "Is clinic ne mera skin ke baare mein confidence wapas diya, bahut grateful hoon.",
-  "Sabhi saheli aur family ko refer kar chuki hoon, aur sab khush hain."
+  "Sabhi saheli aur family ko refer kar chuki hoon, aur sab khush hain.",
+  "Bella Rosa ne meri skin ki story bilkul badal di, dil se recommend karti hoon.",
+  "Varanasi mein rehte ho aur skin care karna chahte ho toh Bella Rosa se better koi option nahi.",
+  "Pehli appointment ke baad hi pata chal gaya tha yeh clinic alag hai, aur haan hai.",
+  "Samay aur paisa dono ke hisab se best investment hai Bella Rosa mein treatment.",
+  "Har kisi ko ek baar zaroor try karni chahiye Bella Rosa, results khud bata denge."
 ];
- 
+
 var ERR_OPENERS = [
   "Visited Bella Rosa clenic in Varanasi for the first time last month",
   "Have been comming to Bella Rosa for the past several months",
@@ -591,9 +748,14 @@ var ERR_OPENERS = [
   "Tryed two other clinics before landing at Bella Rosa, and this was the best decisoin",
   "Came for a consultaton at Bella Rosa after reading so many good reviews online",
   "My mother has been visiting Bella Rosa for anti-ageing treatmnts for months",
-  "Was skeptikal at first but Bella Rosa has completely won me over"
+  "Was skeptikal at first but Bella Rosa has completely won me over",
+  "Finaly found a clinic in Varanasi that actualy delivers on its promices",
+  "Was recomended Bella Rosa by my freind who had amazing skin transformation there",
+  "Booked my first appointement at Bella Rosa after a lot of hesitaton",
+  "My collegue showed me her skin before and after Bella Rosa and I was completley shocked",
+  "Had almost givn up on finding a good clinic untill someone mentoned Bella Rosa"
 ];
- 
+
 var ERR_RESULTS = [
   "Visable results started showing within just two to three sessions which was beyond my expectaion",
   "My acne has reduce drastically after following the treatment plan Albina ma'am disigned for me",
@@ -602,9 +764,16 @@ var ERR_RESULTS = [
   "Skin feels firmer and more lifted after the HIFU treatement here, very satisfied",
   "The scar on my chin that I was so concious about is barely visble now after treatment",
   "My skin tone has evened out beautifuly and I get compliments constantely now",
-  "Three sesions of MNRF and the differance in my skin texture is quite remarkble"
+  "Three sesions of MNRF and the differance in my skin texture is quite remarkble",
+  "Hair fal has reduced by 70 percent and the qualety is so much better",
+  "My freands keep asking what I did diferently because my skin is glowing so much",
+  "Results are gradual but consistant, every sesion brings a noticeble improvement",
+  "The dark spots that bothred me for years have lightend significently",
+  "Skin glow after each sesion lasts for weeks, not just a few days",
+  "Even my husbend noticed the improvment in my skin after just three sesions here",
+  "The breakouts have almost completley stoped since I started treatment at Bella Rosa"
 ];
- 
+
 var ERR_CLOSE = [
   "Higly recommend Bella Rosa to anyone in Varanasi looking for reliable, result-oriented skincare.",
   "If you are strugling with any skin or hair concern, Bella Rosa should be your first stop.",
@@ -617,9 +786,12 @@ var ERR_CLOSE = [
   "Five stars is not enugh, Bella Rosa deserves more for the quality of care they provide.",
   "The best investement I made for my skin was booking that first appointment at Bella Rosa.",
   "Do visit once and you will understand why this clenic has such loyel clients in Varanasi.",
-  "100 percent recommnded for anyone who wants genuine treatments, real results, and honest advise."
+  "100 percent recommnded for anyone who wants genuine treatments, real results, and honest advise.",
+  "Give Bella Rosa one chance and your skin wil thank you for years to come.",
+  "Bella Rosa is truely the best skincare clenic Varanasi has to offer, no dout about it.",
+  "Compleetly worth every rupee, Bella Rosa deliveres real and lasting results every time."
 ];
- 
+
 var ONE_LINERS_EN = [
   "Bella Rosa is the best skincare clinic in Varanasi. Professional staff, genuine treatments, and visible results from the very first few sessions. Highly recommended.",
   "Been visiting Bella Rosa for six months now and my skin has transformed completely. Albina ma'am is skilled, knowledgeable, and genuinely caring. Cannot recommend enough.",
@@ -640,9 +812,19 @@ var ONE_LINERS_EN = [
   "Bella Rosa is the kind of clinic that does not just treat your skin, they educate you about it. Left every session understanding my skin better and seeing real improvement.",
   "The face lifting and tightening treatments at Bella Rosa are exceptionally well done. My skin looks firmer and more youthful after just a few sessions.",
   "Everything about Bella Rosa is premium, the clinic, the technology, the staff, and above all the results. Best skincare investment I have made in years.",
-  "The slimming sessions at Bella Rosa are surprisingly effective and the team is very motivating and supportive throughout the process. Great results and great experience."
+  "The slimming sessions at Bella Rosa are surprisingly effective and the team is very motivating and supportive throughout the process. Great results and great experience.",
+  "Albina ma'am at Bella Rosa is in a league of her own when it comes to understanding skin. Every treatment she recommends is precisely what your skin needs. Extraordinary expertise.",
+  "The number of specialized treatments available at Bella Rosa is genuinely unmatched in Varanasi. And the quality of execution for each one is equally impressive.",
+  "My skin was at its worst before I found Bella Rosa. Three months later I look in the mirror and barely recognize how much has changed. Grateful does not begin to cover it.",
+  "The Pico Carbon Laser facial at Bella Rosa is worth every penny. Skin felt refreshed, pores looked tighter, and the glow lasted for weeks. Absolutely no regrets.",
+  "Trust is hard to build with skincare clinics but Bella Rosa has earned mine completely. Genuine products, honest advice, and consistent results. Nothing more you could ask for.",
+  "I drove two hours to visit Bella Rosa and I would do it again without hesitation. The quality of care here is simply not available anywhere closer to where I live.",
+  "Five-star service from the moment you walk in to the moment you walk out. Bella Rosa treats every client like a priority and the results reflect that commitment.",
+  "My skin confidence has gone from zero to everything since starting at Bella Rosa. This clinic has genuinely changed my life and I cannot recommend it strongly enough.",
+  "The transparency at Bella Rosa is what I appreciate most. You know exactly what is being done, why, and what to expect. That kind of honesty is rare and deeply valued.",
+  "Bella Rosa does not just give you a treatment, they give you a skin transformation journey. Every visit builds on the last and the cumulative results are truly remarkable."
 ];
- 
+
 var ONE_LINERS_HI = [
   "Bella Rosa Varanasi ki best skincare clinic hai. Professional staff, genuine treatment aur real results. Koi comparison nahi hai.",
   "6 mahine ho gaye Bella Rosa mein aa rahi hoon aur meri skin bilkul transform ho gayi hai. Albina ma'am ka kaam kamaal ka hai.",
@@ -658,9 +840,14 @@ var ONE_LINERS_HI = [
   "Pehli consultation mein hi Albina ma'am ne poori skin history li aur ekdum sahi treatment plan banaya.",
   "Bella Rosa sirf treatment nahi karti, apni skin ke baare mein educate bhi karti hai. Har session mein kuch naya sikha.",
   "Face lifting treatment itni well-done thi ki meri skin tighten ho gayi aur glow bhi aayi. Bahut happy hoon.",
-  "Slimming sessions bhi try ki hain yahan, results achhe hain aur team bahut supportive aur motivating hai."
+  "Slimming sessions bhi try ki hain yahan, results achhe hain aur team bahut supportive aur motivating hai.",
+  "Varanasi mein Bella Rosa se behtar skin clinic dhundhna bakwas hai. Yahan sab kuch hai jo chahiye skin ke liye.",
+  "Albina ma'am ki skin ke baare mein knowledge aur passion clearly feel hoti hai, bahut rare combination hai.",
+  "Bella Rosa ne mujhe woh skin di hai jo maine kabhi expect nahi ki thi. Genuinely life-changing experience.",
+  "Itne saalon ki skin ki takleef Bella Rosa ne thode hi waqt mein address kar li. Extraordinary work.",
+  "Jo bhi Varanasi mein hai aur skin ya hair ki problem hai, seedha Bella Rosa jao. Baaki sab time waste hai."
 ];
- 
+
 var TWO_PART_A = [
   "Bella Rosa is the most professional skincare clinic I have visited in Varanasi.",
   "Have been going to Bella Rosa for the past year and it has completely changed my skin.",
@@ -675,9 +862,20 @@ var TWO_PART_A = [
   "Came to Bella Rosa specifically for HIFU treatment and the results exceeded all my expectations.",
   "As someone with very sensitive skin, finding a clinic I could truly trust was difficult until Bella Rosa.",
   "The reputation of Bella Rosa for genuine results is completely well-deserved.",
-  "Started treatment at Bella Rosa for hair fall and the improvement has been remarkable."
+  "Started treatment at Bella Rosa for hair fall and the improvement has been remarkable.",
+  "My skin had reached a point where nothing was working before I came to Bella Rosa.",
+  "The transformation in my complexion since visiting Bella Rosa has been noticed by everyone around me.",
+  "Bella Rosa was the third clinic I tried for my pigmentation and the first one that actually worked.",
+  "From the moment I walked into Bella Rosa, I knew this was a different kind of clinic entirely.",
+  "After years of neglecting my skin, Bella Rosa gave me a fresh start and a completely new beginning.",
+  "My sister visited Bella Rosa first and her results made me book an appointment without any hesitation.",
+  "Searched everywhere in Varanasi for a clinic with this level of expertise and Bella Rosa was the answer.",
+  "Never thought a skincare clinic in Varanasi could deliver results like the ones I have seen at Bella Rosa.",
+  "The first consultation at Bella Rosa was more thorough than anything I had experienced at any previous clinic.",
+  "Came to Bella Rosa with zero faith in skincare clinics and left as a completely converted believer.",
+  "Bella Rosa is not just a clinic, it is the best decision I have made for my skin and my confidence."
 ];
- 
+
 var TWO_PART_B = [
   "Every single session has been professional, effective, and delivered visible improvement.",
   "The technology, expertise, and genuine care here is unmatched by any other clinic I have tried.",
@@ -693,13 +891,23 @@ var TWO_PART_B = [
   "No fake promises, no unnecessary upselling, no pressure, just genuine, honest skin care.",
   "The years of expertise and the latest technology come together perfectly at Bella Rosa.",
   "Highly recommend to every person in Varanasi who is serious about their skin and hair health.",
-  "Will keep visiting Bella Rosa for as long as I am in Varanasi. That is my honest verdict."
+  "Will keep visiting Bella Rosa for as long as I am in Varanasi. That is my honest verdict.",
+  "The results speak louder than any words I could use to describe Bella Rosa. Truly outstanding.",
+  "This level of skin care was something I associated only with big cities until I found Bella Rosa.",
+  "The clinic's commitment to genuine results over quick fixes makes all the difference in the world.",
+  "Everything from the consultation to the last session reflects the highest standard of professional care.",
+  "My skin has never been in better health and Bella Rosa deserves full credit for that transformation.",
+  "The trust I have built here over months is the reason I will never look for another skincare clinic.",
+  "The kind of personalized attention Albina ma'am gives makes you feel like the only client that matters.",
+  "This is the skincare experience everyone deserves but very few clinics in Varanasi actually provide.",
+  "Bella Rosa has earned five stars and then some with the consistent quality they deliver every single visit.",
+  "The complete package of skill, warmth, cleanliness, and results makes Bella Rosa genuinely irreplaceable."
 ];
- 
+
 var _s = Date.now();
 function rnd(){ _s=(_s*1664525+1013904223)&0xffffffff; return((_s>>>0)/4294967295); }
 function pick(a){ return a[Math.floor(rnd()*a.length)]; }
- 
+
 var buf = [];
 var BUF_MAX = 18;
 function addBuf(t){ buf.push(t); if(buf.length>BUF_MAX) buf.shift(); }
@@ -711,14 +919,14 @@ function inBuf(t){
     return c/Math.max(wa.size,wb.size,1)>0.45;
   });
 }
- 
+
 var reviewCount = 0;
 function useErrors(){ reviewCount++; return (reviewCount % 3 === 0); }
- 
+
 function compose(){
   var errs = useErrors();
   var style = Math.floor(rnd()*14);
- 
+
   if(style===0){
     var op = errs ? pick(ERR_OPENERS) : pick(VISIT_OPENERS);
     var tr = pick(TREATMENT_OBSERVATIONS);
@@ -805,7 +1013,7 @@ function compose(){
   var cl = errs ? pick(ERR_CLOSE) : pick(CLOSING_RECS);
   return tr+". "+st+". "+re+". "+cl;
 }
- 
+
 function buildReview(){
   _s = Date.now() ^ (Math.random()*0x7fffffff|0);
   var v, n=0;
@@ -813,9 +1021,9 @@ function buildReview(){
   addBuf(v);
   return v;
 }
- 
+
 var currentReview = "";
- 
+
 function displayReview(anim){
   var el = document.getElementById("reviewText");
   if(anim){
@@ -830,7 +1038,7 @@ function displayReview(anim){
     el.textContent = currentReview;
   }
 }
- 
+
 function refreshReview(){
   var btn = document.getElementById("btnRefresh");
   btn.classList.add("spinning");
@@ -841,7 +1049,7 @@ function refreshReview(){
   cb.classList.remove("success");
   document.getElementById("hint").textContent = "Tap to copy your review, then paste it on Google.";
 }
- 
+
 function copyAndGo(){
   var btn = document.getElementById("btnCopy");
   function afterCopy(){
@@ -865,7 +1073,7 @@ function copyAndGo(){
     afterCopy();
   }
 }
- 
+
 window.addEventListener("DOMContentLoaded",function(){ displayReview(false); });
 </script>
 </body>
